@@ -1,0 +1,185 @@
+@font-face {
+    font-family: Traders;
+    src: url("/assets/BauOT.otf") format("opentype");
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    padding-top: 70px;
+}
+
+img {
+    max-width:100%
+}
+
+@media (min-width: 600px) {
+    .navbar-header {
+        background-image: url('/assets/logo2.png');
+        background-repeat: no-repeat;
+        padding-left: 60px;
+    }
+}
+
+.small-modal {
+    font-size: 80%;
+}
+
+.centered {
+    text-align: center;
+}
+
+#iconcanvas {
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+}
+
+.over-alert {
+    padding: 5px;
+    margin-right: 10px;
+    position: absolute;
+    top: 60px;
+    left:10px;
+    z-index:100;
+    opacity:0.8;
+}
+
+.emotiontoolbox {
+    position: absolute;
+    width:130px;
+    height:150px;
+    top: 70px;
+    left: 10px;
+    z-index:100;
+}
+.emotiontoolbox p {
+    margin: 0;
+}
+
+.legendtoolbox {
+    padding: 0;
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    top: 100px;
+    left: 10px;
+    z-index: 100;
+    opacity: 0.95;
+}
+
+.phototoolbox {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+.makerstoolbox {
+    position: absolute;
+    width: 400px;
+    min-height: 100px;
+    z-index: 100;
+    padding: 20px;
+    background-color: white;
+}
+
+.mytoolbox {
+    position: absolute;
+    width:600px;
+    height:60px;
+    bottom: 10px;
+    left:50px;
+    z-index:100;
+    opacity:0.7;
+}
+
+.buttontoolbox {
+    position: absolute;
+    width:100px;
+    height:60px;
+    top: 60px;
+    left:50px;
+    z-index:100;
+}
+.mytoolbox > .row > .panel {
+    background-color: #F5F5F5;
+}
+
+#timeSlider {
+    width: 550px;
+}
+
+#timeSlider .slider-selection {
+    background: #BABABA;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  vertical-align: middle;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
